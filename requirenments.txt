@@ -2,4 +2,3 @@ tensorflow==2.6.0
 opencv-python
 numpy
 keras
-mtcnn
