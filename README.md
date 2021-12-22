@@ -1,25 +1,16 @@
-# Face Recognition with FaceNet and OpenCV
+Face Recognition with Webcam Using Facenet, Opencv and MTCNN
 
+I used Google's Facenet Algorithm for face recognition with opencv and mtcnn face detection algorithms
 
-**BlogPost (Turkish) :**  [click](https://medium.com/deep-learning-turkiye/facenet-ile-sherlock-ve-johnu-tan%C4%B1yal%C4%B1m-ef76c4b46e86)
+My face recognition project has two parts:
 
+    Face detection:
+        Opencv
+        Mtcnn 
+    Face Identification with Facenet Keras 
 
+Notes:
+I have a hd webcam when i use mtcnn for face detection, it takes more times so the display is very slow but it catches faces and draw rectangles arouns people who are recognized by facenet, on the other hand opencv is superfast and there is no interreptuion on display.
+Mtcnn is more precious than opencv but if you add only known people's images to the database(the photos you are taken are the best) opencv works preciously too.
 
-
-### Setup
-
-* Download pretrained model from this link : [click](https://drive.google.com/drive/folders/1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn)
-
-* Put pretrained model into "model" folder.
-
-
-### Usage
-
-```$ python main.py```
-
-
-### Project Output :
-
-if you want to watch the real video on Youtube, <a href="http://www.youtube.com/watch?v=Wwua8ikpM1s">click</a>;
-
-<img src="./resources/output_facenet.gif" />
+I would like to try more models and face detection algorithms soon
