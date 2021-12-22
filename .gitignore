@@ -100,3 +100,8 @@ ENV/
 
 
 model/*.h5
+photos
+database/elon/
+database/yasin
+database/sare
+database/emre
